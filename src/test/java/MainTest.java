@@ -15,7 +15,7 @@ public class MainTest {
     @Test
     public void testSumError(){
         Main main = new Main();
-        assertEquals(0,main.sum(2,5));
+        assertEquals(7,main.sum(2,5));
     }
 
 }
